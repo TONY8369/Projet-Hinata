@@ -1,0 +1,94 @@
+.conteneur-connexion{
+    width: 100%;
+    display: flex;
+}
+
+.Formulaire-connexion{
+    width: 50%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+form{
+    padding-top: 10px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+
+label{
+    width: 200px;
+    height: 100px;
+    color: $color-2;
+    font-size: 20px;
+}
+
+.formulaire-email{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.formulaire-password{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.valider-connexion{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    font-size: 20px;
+    cursor: pointer;
+    padding:20px;
+}
+
+a{
+    color:#eac55e ;
+}
+.emailConnexion.error{
+    color: red;
+    letter-spacing: 4px;
+}
+.passwordConnexion.error{
+    padding-top: 10px;
+    color: red;
+    letter-spacing: 4px;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .labelConnexion{
+        font-size: 15px;
+    }
+    .formulaire-authentification{
+        width: 100%;
+        font-size: 10px;
+    }
+    #email{
+        font-size: 10px;
+    }
+    #password{
+        font-size: 10px;
+    }
+    #connexion{
+        font-size: 10px;
+    }
+}

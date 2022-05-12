@@ -1,0 +1,21 @@
+.card-graphique{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.356);
+    margin-top: 35px;
+    border: 3px groove $color-2; 
+    
+}
+.description-container-trois{
+    height: 150px;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .card-graphique{
+        margin: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.container-commentaire-posts{
+    width: 50%;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: $color-2;
+    text-align: center;
+    margin-top: 15px;
+     border-radius: 20px;
+     border: 2px solid $color-2;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+   .container-commentaire-posts{
+       margin: 0;
+       width: 100%;
+   }
+   .posts{
+       font-size: 10px;
+   }
+   .datePosts{
+       font-size: 10px;
+   }
+   .messagePosts{
+       font-size: 12px;
+   }
+   .textAdmin{
+       font-size: 10px;
+   }
+   .envoyerAdmin{
+       font-size: 10px;
+   }
+}

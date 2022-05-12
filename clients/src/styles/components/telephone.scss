@@ -1,0 +1,21 @@
+.telephone{
+    width: 30px;
+    height: 30px;
+}
+
+.phone{
+    color: $color-2;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+   .telephone{
+       width: 17px;
+       height: 17px;
+   }
+   .phone{
+       font-size: 9px;
+   }
+}

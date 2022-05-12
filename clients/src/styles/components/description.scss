@@ -1,0 +1,81 @@
+.text-container{
+    font-family: sans-serif;
+    text-align: center;
+    height: 210px;
+    width: 100%;
+}
+
+.titre-description{
+    color: $color-2;
+    padding-top: 15px;
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+}
+
+.sous-titre{
+    color: $color-2;
+    padding-top: 10px;
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.text{
+    font-size: 20px;
+    color: $color-3;
+    padding-top: 20px;
+}
+
+
+.text-container > span{
+    width: 610px;
+    height: 4px;
+    border-radius: 5px;
+    background: $color-1;
+    display: block;
+    margin-top: 30px;
+    margin-left: 32vw; 
+}
+
+.titre-description{
+    letter-spacing: 5px;
+}
+.sous-titre{
+   letter-spacing: 5px; 
+}
+.text > span{
+  color: $color-2;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+
+   .titre-description{
+      font-size: 13px;
+      letter-spacing: 2px;
+   }
+   .sous-titre{
+     font-size: 13px;
+     letter-spacing: 2px;
+   }
+   .text{
+     font-size: 12px;
+   }
+   .text-container > span{
+     width: 60%;
+     margin-left: 70px;
+   }
+}

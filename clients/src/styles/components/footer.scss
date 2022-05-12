@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 50%;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .footer{
+        width: 70%;
+    }
+}
+

@@ -1,0 +1,143 @@
+.commentaire-barre{
+    width: 610px;
+    height: 4px;
+    border-radius: 5px;
+    background: $color-1;
+    display: block;
+    margin-top: 28px;
+    margin-left: 33vw; 
+}
+
+.form-commentaire{
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 90%;
+    height: 1000px;
+    margin: 20px auto;
+   
+}
+.titre-commentaire{
+    text-align: center;
+    color: $color-2;
+}
+.commentaire-form{
+    background-color: rgba(0, 0, 0, 0.288);
+    margin: 0 auto;
+    height: 300px;
+}
+.commentaire-envoyer{
+    cursor: pointer;
+}
+.commentaire-envoyer:hover{
+    letter-spacing: 5px;
+}
+
+.zone-commentaire:hover{
+    background-color:  rgba(184, 167, 167, 0.082);
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.096);
+    display: grid;
+}
+.post-container{
+    padding: 25px;
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    height: 85px;
+    color: $color-2;
+    border: 2px solid $color-2;
+}
+.messagePost{
+    font-size: 18px;
+}
+.messagePosts{
+   text-align: start;
+}
+.conteneur-comment{
+     height: 70px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding-top: 5px;
+    border: 2px solid $color-1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comment{
+    width: 50%;
+    padding-left: 2%;
+    color: $color-2;
+}
+.dateComment{
+    width: 50%;
+    color: $color-2;
+}
+.messageComment{
+    width:100%;
+    padding-top: 5px;
+    padding-left: 2%;
+    color: $color-2;
+}
+.deletecomment{
+    height: 20px;
+    width: 20px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.deleteComment{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lmj-cart-toggle-button{
+    width: 25%;
+    margin-bottom: 5px;
+}
+.lmj-cart-toggle-button-deux{
+    width: 30%;
+    margin-bottom: 5px;
+}
+.success.commentaire{
+    color: $color-2;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .form-commentaire{
+        width: 100%;
+    }
+    .titre-commentaire{
+    font-size: 15px;
+    }
+    .commentaire-form{
+    margin: 0;
+    width: 100%;
+    }
+    .zone-commentaire{
+    font-size: 12px;
+    }
+    .text-commentaire{
+        font-size: 12px;
+    }
+    .commentaire-envoyer{
+    font-size: 12px;
+    }
+    .post-container{
+        width: 100%;
+    }
+    .messagePost{
+    font-size: 12px;
+    }
+    .lmj-cart-toggle-button{
+    width: 65%;
+    }
+    .comment{
+        font-size: 12px;
+    }
+    .messageComment{
+        font-size: 12px;
+    }
+    .dateComment{
+        font-size: 12px;
+    }
+}

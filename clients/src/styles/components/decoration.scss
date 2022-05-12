@@ -1,0 +1,67 @@
+.deco-container{
+    display: flex;
+    justify-content: center;
+}
+.deco-un{
+    margin-right: 10px;
+}
+.deco-deux{
+    margin-right: 10px;
+}
+.deco-trois{
+    margin-right: 10px;
+}
+.hinataTrois{
+    width: 300px;
+    height: 300px;
+}
+.hinataDeux{
+    width: 300px;
+    height: 300px;
+}
+.hinataUn{
+    width: 300px;
+    height: 300px;
+}
+.hinataQuatre{
+    width: 300px;
+    height: 300px;
+}
+.description-container-deux{
+    height: 150px;
+}
+.separator{
+    width: 610px;
+    height: 4px;
+    border-radius: 5px;
+    background: $color-1;
+    display: block;
+    margin-top: 28px;
+    margin-left: 33vw; 
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .hinataTrois{
+    width: 100px;
+    height: 100px;
+    }
+    .hinataDeux{
+    width: 100px;
+    height: 100px;
+    }
+    .hinataUn{
+    width: 100px;
+    height: 100px;
+    }
+    .hinataQuatre{
+    width: 100px;
+    height: 100px;
+    }
+    .separator{
+        width: 60%;
+        margin-left: 70px; 
+    }
+}

@@ -1,0 +1,28 @@
+.administrative{
+    display: flex;
+    justify-content:flex-end;
+    height: 50px;
+    width: 100%;
+}
+.administratives{
+    text-shadow: 1px 0 0 $color-3;
+    letter-spacing: 2px;
+     margin-right: 50px;
+    
+}
+.administratives::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: $color-2;
+    transition: 300ms;
+}
+
+.administratives:hover::after{
+    width: 100%;
+}
+
+.active .administratives{
+    color: $color-4;
+}

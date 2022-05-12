@@ -1,0 +1,80 @@
+.conteneur-calendrier{
+    margin: 0 auto;
+}
+.form-calendar{
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    padding: 0 30px 10px;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
+    max-width: 45%;
+    height: 300px;
+}
+.rbc-toolbar button{
+    font-size: 15px;
+    width: 200px;
+}
+.buttonPlanning{
+    margin-left: 270px; 
+    width: 200px; 
+    margin-top: 50px;
+}
+.rbc-calendar{
+        height: 500;
+        margin: 70px;
+        background-color: white;
+        color: #b4a895;
+        border: 3px groove #FFDF00;
+    }
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .form-calendar{
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    }
+   #text{
+       font-size: 10px;
+   }
+   #dateDebut{
+       font-size: 10px;
+   }
+   #dateFin{
+       font-size: 10px;
+   }
+   .conteneur-calendrier{
+        margin: 0;
+        width: 100%;
+        height: 1000px;
+    }
+    .rbc-toolbar button{
+        font-size: 10px;
+        width: 100px;
+    }
+    .rbc-calendar{
+        width: 92%;
+    }
+   .rbc-header{
+       font-size: 10px;
+   }
+   .rbc-toolbar-label{
+       font-size: 12px;
+   }
+   .rbc-date-cell.rbc-off-range{
+    font-size: 10px;
+   }
+   .rbc-date-cell{
+       font-size: 10px;
+   }
+   .rbc-event-content{
+       font-size: 10px;
+   }
+   .buttonPlanning{
+    margin-left: 50px; 
+    }
+   
+}

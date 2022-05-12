@@ -1,0 +1,105 @@
+.formulaireAdmin{
+    width: 100%;
+    display: flex;
+}
+
+.Formulaire-connexionAdmin{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15vh;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+form{
+    padding-top: 10px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+
+label{
+    width: 200px;
+    height: 100px;
+    color: $color-2;
+    font-size: 20px;
+}
+
+.formulaire-email{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.formulaire-password{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.valider-connexion{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    font-size: 20px;
+    cursor: pointer;
+    padding:20px;
+}
+
+a{
+    color:#eac55e ;
+}
+.emailAdmin.error{
+    color: red;
+    letter-spacing: 4px;
+}
+.passwordAdmin.error{
+    padding-top: 10px;
+    color: red;
+    letter-spacing: 4px;
+}
+
+.titreAdmin{
+    text-align: center;
+    color: $color-2;
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 100px;
+   padding-top: 30px;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .titreAdmin{
+        font-size: 15px;
+    }
+    .Formulaire-connexionAdmin{
+        width: 100%;
+        margin-top: 5vh;
+        height: 550px;
+    }
+    .labelAdmin{
+        font-size: 12px;
+    }
+    .valider-connexion{
+        font-size: 15px;
+    }
+}
+

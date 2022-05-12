@@ -1,0 +1,51 @@
+.conteneur-reservation-user{
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding-top: 5px;
+    border: 2px solid $color-2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.reservations{
+    width: 20%;
+    padding-left: 2%;
+}
+.dateReservations{
+    width: 25%;
+}
+.messageReservations{
+    width:100%;
+}
+.edit-delete{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.repondrePost{
+    height: 20px;
+    width:20px;
+    margin-left: 2%;
+    cursor: pointer;  
+}
+.repondrePostDeux{
+    height: 20px;
+    width:20px;
+    margin-top: 40px;
+    margin-left: 20%;
+    cursor: pointer;  
+}
+.deletePost{
+    height: 20px;
+    width: 20px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.responseAdmin{
+    height: 5px;
+    width: 85%;
+    overflow: hidden;
+}
+.envoyersAdmin{
+    width: 20%;
+}

@@ -1,0 +1,678 @@
+.reservation-container{
+    width: 90%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.288);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bloc-reservation{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}
+.ensemble{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.bloc-bar{
+    width: 30%;
+    height: 196px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 4px solid $color-2;
+    border-right: 4px solid $color-2;
+    color: $color-2;
+    padding-top: 10px;
+    background-color:rgb(248, 232, 195);
+}
+.bloc-bar-un{
+   width: 1%; 
+   height: 140px;
+   position: absolute;
+   border-radius: 5px;
+   left: 75.5%;
+   top: 415vh;
+   border: 2px solid $color-2;
+   background-color: $color-2;
+   color: black;
+   writing-mode: vertical-lr;
+   font-size: 15px;
+   font-weight: bold;
+   
+}
+.bloc-bar-deux{
+    width: 14%; 
+   height: 20px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 417vh;
+   left: 61%;
+   background-color: $color-2;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+.bloc-bar-trois{
+    width: 5%; 
+   height: 20px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 431vh;
+   left: 66%;
+   background-color: $color-2;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+.bloc-cuisine{
+    width: 30%;
+    height: 196px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 4px solid $color-2;
+    border-right: 4px solid $color-2;
+    border-left: 4px solid $color-2;
+    color: $color-2;
+    padding-top: 8px;
+    background-color: rgb(245, 235, 221);
+}
+.bloc-cuisine-un{
+   width: 1%; 
+   height: 140px;
+   position: absolute;
+   border-radius: 5px;
+   left: 75.5%;
+   top: 395vh;
+   border: 2px solid $color-2;
+   background-color: $color-2;
+   color: black;
+   writing-mode: vertical-lr;
+   font-size: 15px;
+   font-weight: bold;
+   
+}
+.bloc-cuisine-deux{
+    width: 10%; 
+   height: 20px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 397vh;
+   left: 64%;
+   background-color: $color-2;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+.bloc-cuisine-trois{
+   width: 1%; 
+   height: 80px;
+   position: absolute;
+   border-radius: 5px;
+   left: 61.2%;
+   top: 398vh;
+   border: 2px solid $color-2;
+   background-color: $color-2;
+   color: black;
+   writing-mode: vertical-lr;
+   font-size: 15px;
+   font-weight: bold;
+   
+}
+.bloc-cuisine-quatre{
+    width: 10%; 
+   height: 20px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 405vh;
+   left: 64%;
+   background-color: $color-2;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+.bloc-salle{
+    width: 37.6%;
+    height: 392px;
+    background-color: rgb(243, 236, 227);
+    position: absolute;
+    left: 23.2%;
+    text-align: center;
+    font-size: 20px;
+    color: $color-2;
+    padding-top: 15px;
+    border-top: 4px solid $color-2;
+    border-left: 4px solid $color-2;
+    border-bottom: 4px solid $color-2;
+}
+.bloc-salle-un{
+    width: 5%; 
+   height: 60px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 30vh;
+   left: 5%;
+   background-color: white;
+   padding-top: 15px;
+   cursor: pointer;
+}
+.bloc-salle-deux{
+    width: 60%; 
+   height: 20px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 26vh;
+   left: 1%;
+   background-color: $color-2;
+   color: black;
+   font-size:15px;
+   font-weight: bold;
+}
+.bloc-salle-trois{
+    width: 5%; 
+   height: 60px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 30vh;
+   left: 15%;
+   background-color: white;
+   padding-top: 15px;
+   cursor: pointer;
+}
+.bloc-salle-quatre{
+    width: 5%; 
+   height: 60px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 30vh;
+   left: 25%;
+   background-color: white;
+   padding-top: 15px;
+   cursor: pointer;
+}
+.bloc-salle-cinq{
+    width: 5%; 
+   height: 60px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 30vh;
+   left: 35%;
+   background-color: white;
+   padding-top: 15px;
+   cursor: pointer; 
+}
+.bloc-salle-six{
+    width: 5%; 
+   height: 60px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 30vh;
+   left: 45%;
+   background-color: white;
+   padding-top: 15px;
+   cursor: pointer;
+}
+.bloc-salle-sept{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 70%;
+   background-color: white;
+   padding-top: 30px;
+   cursor: pointer;
+}
+.bloc-salle-huit{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 80%;
+   background-color: white;
+   padding-top: 30px; 
+   cursor: pointer;
+}
+.bloc-salle-neuf{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 90%;
+   background-color: white;
+   padding-top: 30px;
+   cursor: pointer; 
+}
+.bloc-salle-dix{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 2%;
+   background-color: white;
+   padding-top: 6px; 
+   cursor: pointer;
+}
+.bloc-salle-onze{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 15%;
+   background-color: white;
+   padding-top: 6px;
+    cursor: pointer;
+}
+.bloc-salle-douze{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 2vh;
+   left: 28%;
+   background-color: white;
+   padding-top: 6px;
+    cursor: pointer;
+}
+.bloc-salle-treize{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 8vh;
+   left: 4%;
+   background-color: white;
+   padding-top: 30px;
+    cursor: pointer;
+}
+.bloc-salle-quatorze{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 8vh;
+   left: 17%;
+   background-color: white;
+   padding-top: 30px;
+    cursor: pointer;
+}
+.bloc-salle-quinze{
+    width: 5%; 
+   height: 100px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 8vh;
+   left: 30%;
+   background-color: white;
+   padding-top: 30px; 
+    cursor: pointer;
+}
+.bloc-salle-seize{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 20vh;
+   left: 2%;
+   background-color: white;
+   padding-top: 8px; 
+    cursor: pointer;
+}
+.bloc-salle-dixHuit{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 20vh;
+   left: 15%;
+   background-color: white;
+    padding-top: 8px;
+     cursor: pointer;
+}
+.bloc-salle-dix-neuf{
+    width: 10%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 20vh;
+   left: 28%;
+   background-color: white;
+    padding-top: 8px; 
+     cursor: pointer;
+}
+.bloc-salle-vingth{
+    width: 15%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 5vh;
+   left: 45%;
+   background-color: white;
+    padding-top: 8px; 
+    cursor: pointer;
+}
+.bloc-salle-vingth-un{
+    width: 15%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 10vh;
+   left: 45%;
+   background-color: white;
+   padding-top: 8px;
+   cursor: pointer;
+}
+.bloc-salle-vingth-deux{
+    width: 15%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 15vh;
+   left: 45%;
+   background-color: white;
+   padding-top: 8px;
+   cursor: pointer;
+}
+.bloc-salle-vingth-trois{
+    width: 8%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 15vh;
+   left: 90%;
+   background-color: white;
+   padding-top: 8px;
+   cursor: pointer;
+}
+.bloc-salle-vingth-quatre{
+    width: 8%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 15vh;
+   left: 80%;
+   background-color: white;
+   padding-top: 8px;
+   cursor: pointer;
+}
+.bloc-salle-vingth-cinq{
+    width: 8%; 
+   height: 40px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 15vh;
+   left: 69%;
+   background-color: white;
+   padding-top: 8px;
+   cursor: pointer; 
+}
+.Explication-reservation{
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    text-align: center;
+    color: $color-2;
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.288);
+}
+.explication-un{
+     width: 6%; 
+   height: 45px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 435vh;
+   left: 35%;
+   background-color: white;
+   padding-top: 8px;
+   font-size: 13px;
+    color: $color-2;
+   font-weight: bold;
+}
+.explication-deux{
+     width: 4%; 
+   height: 45px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 435vh;
+   left: 45%;
+   background-color: white;
+   padding-top: 8px;
+   font-size: 13px;
+    color: $color-2;
+   font-weight: bold;
+}
+.explication-trois{
+     width: 2%; 
+   height: 80px;
+   border: 2px solid $color-2;
+   position: absolute;
+   border-radius: 5px;
+   top: 435vh;
+   left: 52%;
+   background-color: white;
+   padding-top: 8px;
+   writing-mode: horizontal-tb;
+   font-size: 12px;
+    color: $color-2;
+   font-weight: bold;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+   .reservation-container{
+       width: 100%;
+   }
+   .bloc-reservation{
+       width: 86.5%;
+       margin: 21px;
+   }
+   
+    .bloc-salle {
+        width: 42.1%;
+        font-size: 10px;
+    }
+    .bloc-salle-sept{
+        width: 7%;
+        top: 6vh;
+        height: 80px; 
+    }
+    .bloc-salle-huit{
+        width: 7%;
+        top: 6vh;
+        height: 80px; 
+    }
+    .bloc-salle-neuf{
+        width: 7%;
+        top: 6vh;
+        height: 80px; 
+    }
+    .bloc-salle-treize{
+        width: 9%;
+         top: 11vh;
+        height: 80px; 
+    }
+    .bloc-salle-quatorze{
+        width: 9%;
+         top: 11vh;
+        height: 80px; 
+    }
+    .bloc-salle-quinze{
+        width: 9%;
+        top: 11vh;
+        height: 80px; 
+    }
+    .bloc-salle-deux {
+        width: 75%;
+        top: 32vh;
+        font-size: 12px;
+    }
+    .bloc-salle-onze {
+        top: 5vh;
+    }
+    .bloc-salle-douze {
+        top: 5vh;
+    }
+    .bloc-salle-dix {
+        top: 5vh;
+    }
+
+    .bloc-salle-vingth-cinq {
+        width: 9%;
+        top: 20vh;
+    }
+    .bloc-salle-vingth-quatre {
+        width: 9%;
+        top: 20vh;
+    }
+    .bloc-salle-vingth-trois {
+        width: 9%;
+        top: 20vh;
+    }
+    .bloc-salle-vingth-deux {
+        top: 20vh;
+    }
+    .bloc-salle-vingth-un {
+        top: 13vh;
+    }
+    .explication-un {
+        width: 8%;
+        top: 460vh;
+        font-size: 10px;
+    }
+    .explication-deux {
+    width: 6.5%;
+    top: 460vh;
+    height: 50px;
+    font-size: 10px;
+    }
+    .explication-trois {
+    width: 3%;
+    top: 460vh;
+    left: 53%;
+    font-size: 10px;
+    }
+    .bloc-salle-un {
+    width: 7%;
+    top: 37vh;
+    }
+    .bloc-salle-trois {
+    width: 7%;
+    top: 37vh;
+    left: 19%;
+    }
+    .bloc-salle-quatre {
+    width: 7%;
+    top: 37vh;
+    left: 32%;
+    }
+    .bloc-salle-cinq {
+    width: 7%;
+    top: 37vh;
+    left: 45%;
+    }
+    .bloc-salle-six {
+    width: 7%;
+    top: 37vh;
+    left: 60%;
+    }
+    .bloc-salle-dix-neuf {
+    top: 25vh;
+    }
+    .bloc-salle-dixHuit {
+    top: 25vh;
+    }
+    .bloc-salle-seize {
+    top: 25vh;
+    }
+    .bloc-bar-trois {
+    width: 15%;
+    top: 457vh;
+    left: 70%;
+    font-size: 12px;
+    }
+    .bloc-bar-deux {
+    width: 16%;
+    top: 440vh;
+    left: 68%;
+    font-size: 12px;
+    }
+    .bloc-bar-un {
+    width: 2%;
+    left: 87%;
+    top: 438vh;
+    font-size: 12px;
+    }
+    .bloc-cuisine-un {
+    width: 2%;
+    left: 86%;
+    top: 415vh;
+    font-size: 12px;
+    }
+    .bloc-cuisine-quatre {
+    width: 15%;
+    top: 430vh;
+    left: 70%;
+    font-size: 12px;
+    }
+    .bloc-cuisine-deux {
+    width: 15%;
+    top: 415vh;
+    left: 70%;
+    font-size: 12px;
+    }
+    .bloc-cuisine-trois {
+    width: 2%;
+    left: 68%;
+    top: 419vh;
+    font-size: 12px;
+    }
+    .bloc-cuisine {
+    font-size: 12px;
+    }
+    .bloc-bar {
+    font-size: 12px;
+    }
+    .Explication-reservation {
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    }
+}

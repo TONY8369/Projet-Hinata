@@ -1,0 +1,95 @@
+.evenement-container{
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 15px;
+}
+.container-evenement{
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 30%;
+}
+.titre-evenement{
+    color: $color-2;
+    text-align: center;
+}
+.liste-evenement{
+    margin: 20px auto;
+    min-height: 250px;
+    width: 90%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sujet-evenement{
+color: $color-2;
+padding-bottom: 5px;
+padding-top: 5px;
+font-size: 17px;
+}
+.description-evenement{
+    color: $color-3;
+}
+.bon-plan-container{
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 30%;
+}
+.titre-bon-plan{
+    color: $color-2;
+    text-align: center;
+}
+.liste-bon-plan{
+    margin: 20px auto;
+    min-height: 250px;
+    width: 90%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description-bon-plan{
+    padding-bottom: 30px;
+    color: $color-2;
+    font-size: 17px;
+}
+.success.evenement{
+    padding-top: 40px;
+    color: $color-2;
+    letter-spacing: 3px;
+}
+
+.liste-bon-plan{
+    color: $color-2;
+}
+.listePlan{
+    padding-top: 20px;
+    color: $color-2;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .evenement-container{
+        justify-content: flex-start;
+        height: 600px;
+    }
+    .container-evenement{
+        width: 50%;
+    }
+    .titre-evenement{
+    font-size: 15px;
+    }
+    .sujet-evenement{
+    font-size: 12px;
+    }
+    .description-evenement{
+    font-size: 12px;
+    }
+    .bon-plan-container{
+    width: 50%;
+    }
+    .titre-bon-plan{
+    font-size: 15px;
+    }
+    .listePlan{
+    font-size: 12px;
+    }
+}

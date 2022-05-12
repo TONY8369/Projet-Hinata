@@ -1,0 +1,48 @@
+.container-posts{
+    width: 50%;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 3px groove $color-3;
+    color: $color-2;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.reservation.success{
+    color: $color-2;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+   .container-posts{
+       margin: 0;
+       width: 100%;
+   }
+   .lmj-cart-toggle-button-deux{
+       width: 70%;
+   }
+   .reservations{
+       font-size: 10px;
+   }
+   .dateReservations{
+       font-size: 10px;
+   }
+   .messageReservations{
+       font-size: 10px;
+   }
+   .envoyersAdmin{
+       font-size: 10px;
+   }
+   .responseAdmin{
+       font-size: 10px;
+   }
+   .responceAdmin{
+       width: 60%;
+   }
+}

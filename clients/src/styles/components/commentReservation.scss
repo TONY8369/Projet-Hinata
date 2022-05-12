@@ -1,0 +1,27 @@
+.reservation-containers{
+    padding-top: 5px;
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 2px solid $color-2;
+}
+.messageReservations{
+    text-align: start;
+    margin-left: 1%;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .reservation-containers{
+        margin: 0;
+        width: 100%;
+    }
+    .conteneur-comment {
+    height: 90px;
+    }
+    .messageReservations{
+    font-size: 11px;
+    }
+}

@@ -1,0 +1,24 @@
+.liste-commandeUser{
+    border: 2px solid $color-2;
+    background-color: rgba(0, 0, 0, 0.356);
+     border-radius: 20px;
+     padding-left: 1%;
+    text-align: start;
+}
+.deco{
+    color: $color-2
+}
+.description-commande{
+    color: $color-1;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+   .description-commande{
+       font-size: 12px;
+   }
+   .liste-commandeUser{
+        padding-left: 2%;
+    }
+}

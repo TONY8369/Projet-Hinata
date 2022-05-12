@@ -1,0 +1,444 @@
+.le-menu{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuDeux{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuTrois{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuQuatre{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuCinq{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuSix{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuSept{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuHuit{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+.le-menuNeuf{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 350px;
+    width: 83%;
+}
+
+.le-menu ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuDeux ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuTrois ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuQuatre ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuCinq ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuSix ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuSept ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuHuit ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+.le-menuNeuf ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: $color-3;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px groove $color-2; 
+    font-weight: bold;
+ }  
+
+.les-menu{
+    display: flex;
+    padding: 2px;
+    width: 82vw;
+    margin-top: 12px;
+}
+
+.les-menu p{
+    font-size: 14px;
+    margin: 10px;
+    color: $color-2;
+    height: 290px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    border: 3px groove $color-3;
+}
+
+
+.plat{
+    width: 40px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenu p{
+    height: 20px;
+    width: 80%;
+    border: none;
+    color: $color-2;
+    margin: 0 auto;
+}
+
+.contenuDeux p{
+    height: 16px;
+    width: 90%;
+    border: none;
+    color: $color-2;
+    margin: 0 auto;
+}
+.contenuTrois p{
+    height: 14px;
+    width: 90%;
+    border: none;
+    color: $color-2;
+    margin: 0 auto;
+}
+.contenuQuatre p{
+    height: 15px;
+    width: 90%;
+    border: none;
+    color: $color-2;
+    margin: 15px;
+    margin-left: 20px;
+}
+.repas{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+.repas:hover{
+    transition: 0.3s ease-in-out ;
+    width: 220px;
+    height: 220px;
+}
+.repas1{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.repas1:hover{
+    transition: 0.3s ease-in-out ;
+    width: 120px;
+    height: 120px;
+}
+.repas2{
+    width: 80px;
+    height: 80px;
+   margin: 0 auto;
+}
+.repas2:hover{
+    width: 120px;
+    height: 120px;
+    transition: 0.3s ease-in-out ;
+}
+.repas3{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.repas3:hover{
+    transition: 0.3s ease-in-out ;
+    width: 100px;
+    height: 100px;
+}
+.repas4{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+.repas4:hover{
+    transition: 0.3s ease-in-out ;
+    width: 200px;
+    height: 200px;
+}
+.repas5{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.repas5:hover{
+    transition: 0.3s ease-in-out ;
+    width: 150px;
+    height: 150px;
+}
+.repas6{
+     width: 100px;
+    height: 100px;
+   margin: 0 auto;
+}
+.repas6:hover{
+    transition: 0.3s ease-in-out ;
+     width: 150px;
+    height: 150px;
+}
+button{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: $color-2;
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: white;
+    letter-spacing: 2px;
+}
+.buttun{
+    margin: 0 auto;
+    width: 17%;
+}
+
+.buttunOne{
+    margin: 0 auto;
+}
+.buttuntwo{
+    margin: 0 auto;
+}
+.buttunthree{
+    width: 80px;
+    margin: 0 auto;
+}
+.buttunfor{
+    margin: 0 auto;
+}
+.buttunfive{
+    margin: 0 auto;
+}
+.buttunsix{
+    margin: 0 auto;
+}
+
+.conteneur{
+    width: 100%;
+    height: 500px;
+    display: block;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.button::after {
+content: "New Request";
+}
+.button:hover::after {
+ content: "Completed!";
+}
+
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .le-menu{
+        width: 70%;
+        height: 950px;
+    }
+    .le-menuDeux{
+        width: 70%;
+        height: 2400px;
+    }
+    .le-menuTrois{
+        width: 70%;
+        height: 1800px;
+    }
+    .le-menuQuatre{
+        width: 70%;
+        height: 3250px;
+    }
+    .le-menuCinq{
+        width: 70%;
+        height: 1500px;
+    }
+    .le-menuSix{
+        width: 70%;
+        height: 1200px;
+    }
+    .le-menuSept{
+        width: 70%;
+        height: 1500px;
+    }
+    .le-menuHuit{
+        width: 70%;
+        height: 2100px;
+    }
+    .le-menuNeuf{
+        width: 70%;
+        height: 1800px;
+    }
+    .le-menu ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuDeux ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuTrois ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuQuatre ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuCinq ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuSix ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuSept ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuHuit ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .le-menuNeuf ul{
+        font-size: 12px;
+        width: 180px;
+    }
+    .les-menu p{
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .les-menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px
+    }
+    .buttun{
+    width: 25%;
+    }
+}

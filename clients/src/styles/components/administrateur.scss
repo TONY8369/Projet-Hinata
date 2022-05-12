@@ -1,0 +1,20 @@
+.administrateur{
+    width: 30px;
+    height: 30px;
+}
+
+.administrateur2{
+    color: $color-2;
+}
+/*rendre le site parfaitement responsive */
+
+@media screen and (max-width: 600px)
+{
+    .administrateur{
+        width: 17px;
+        height: 17px;
+    }
+    .administrateur2{
+        font-size: 9px;
+    }
+}
